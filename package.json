@@ -1,11 +1,22 @@
 {
   "name": "swichr",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h2>What is it?</h2>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nikhil Bhaskar <nikhil38@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikhil22/swichr.git"
+  },
+  "keywords": [
+    "replace"
+  ],
+  "bugs": {
+    "url": "https://github.com/Nikhil22/swichr/issues"
+  },
+  "homepage": "https://github.com/Nikhil22/swichr#readme"
 }
