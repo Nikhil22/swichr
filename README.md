@@ -36,7 +36,7 @@ Where?
 Here, in this text file! WHERE? Here!
 </pre>
 <h3>the replacing string: 'hi'</h3>
-<h3>the replacing string: 'where'</h3>
+<h3>the string-to-be-replaced: 'where'</h3>
 <h3>out.txt</h3>
 <pre>
 This is a test hi the word "hi" appears in multiple cases.
