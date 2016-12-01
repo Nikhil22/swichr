@@ -150,7 +150,11 @@ const replace = (replacement, replaceable, cand) => new Promise(resolve => {
  * @param {String} replaceable -> the string-to-be-replaced
  */
 const swichr = (inPath, outPath, replacement, replaceable) => {
-    readLines(fs.createReadStream(inPath), outPath, replace.bind(null, replacement, replaceable));
+    readLines(
+        fs.createReadStream(inPath), 
+        outPath, 
+        replace.bind(null, replacement, replaceable)
+    );
 }
 
 module.exports = swichr;
